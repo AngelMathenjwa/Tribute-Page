@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+}
+
+header nav {
+    background-color: #0f3460;
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+    background: linear-gradient(to right, #5e60ce, #0f3460);
+    color: #fff;
+    outline: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(to bottom right, #16213e, #0f3460);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    background: linear-gradient(to right, #0f3460, #5e60ce);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0.5rem 0 2rem;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.hero .btn {
+    padding: 0.8rem 2rem;
+    background: linear-gradient(to right, #0f3460, #5e60ce);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(94, 96, 206, 0.5);
+    transition: all 0.3s ease;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+    background: linear-gradient(to right, #5e60ce, #0f3460);
+    color: #fff;
+    box-shadow: 0px 4px 15px rgba(67, 97, 238, 0.7);
+    outline: none;
+}
+
+.achievements {
+    padding: 2rem;
+}
+
+.achievements h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.achievements ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.achievements ul li {
+    background-color: #0f3460;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    color: #eaeaea;
+    transition: all 0.3s ease;
+}
+
+.achievements ul li:hover {
+    background-color: #5e60ce;
+}
+
+.contact {
+    padding: 2rem;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 0.5rem 0;
+}
